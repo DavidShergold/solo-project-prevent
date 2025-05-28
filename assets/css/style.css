@@ -13,3 +13,17 @@ Light Grey (#F8F9FA): Backgrounds, text boxes, separators.                  */
 .display-4 {
     font-weight: bold;
 }
+
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 1020;
+}
+
+.d-flex {
+    display: flex;
+    gap: 20px;
+}
+
+
+
