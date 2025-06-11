@@ -1,0 +1,94 @@
+/*      Deep Blue (#004080): Navbar, section headers, key content areas.
+Strong Red (#D9534F): Buttons, alert messages, important highlights.
+Light Grey (#F8F9FA): Backgrounds, text boxes, separators.                  */
+
+
+
+.jumbotron {
+    background-color: #004080;
+    padding: 50px 20px;
+}
+
+.jumbotron h1 {
+    color: #ffffff; 
+}
+
+.jumbotron p {
+    color: #fffefe; 
+}
+
+.jumbotron {
+    position: relative;
+}
+.jumbotron::before {
+    content: "";
+    position: absolute;
+    top: 0; left: 0; width: 100%; height: 100%;
+    background: rgba(0, 64, 128, 0.6); /* Adds contrast */
+}
+
+.carousel-caption {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%; /* Controls width */
+    text-align: center;
+    background: rgba(0, 0, 0, 0.6); /* Semi-transparent background for readability */
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.carousel-caption h2,
+.carousel-caption h3,
+.carousel-caption p {
+    color: white; /* Ensures contrast over images */
+}
+
+.carousel-item img {
+    max-height: 800px; /* Adjust height as needed */
+    width: auto;
+    object-fit: cover; /* Ensures images maintain aspect ratio */
+    display: block;
+    margin: 0 auto; /* Centers the image */
+}
+#what {
+    background-color: #004080;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#what h2, #what p {
+    color: #ffffff; /* White text for contrast */
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h2 {
+    font-weight: 700; /* Makes headings bold */
+}
+
+p {
+    font-weight: 400; /* Normal body text */
+}
+
+
+.display-4 {
+    font-weight: bold;
+}
+
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 1020;
+}
+
+.d-flex {
+    display: flex;
+    gap: 20px;
+}
+
+
+
